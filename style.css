@@ -1,0 +1,82 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  font-family: "Montserrat";
+}
+
+.navbar {
+  display: flex;
+  background-color: #000000;
+  color: #ffffff;
+  justify-content: space-between;
+  height: 12vh;
+  align-items: center;
+}
+
+.navbar .logo {
+  margin-left: 5rem;
+  width: 120px;
+}
+
+.navbar .line {
+  margin-left: -25rem;
+  height: 10vh;
+  border-left: 2px solid #ffffff;
+}
+.navbar .list {
+  margin-left: -25rem;
+  display: flex;
+  list-style-type: none;
+  cursor: pointer;
+}
+
+.navbar .list .list-item:not(:last-child) {
+  margin-right: 50px;
+}
+
+.navbar .button-small {
+  border: none;
+  padding: 10px 30px;
+  background-color: #ba0cc5;
+  color: #ffffff;
+  margin-right: 5rem;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.hero {
+  background: url("./assets/bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 88vh;
+}
+
+.hero .hero-heading {
+  padding-top: 10rem;
+  font-size: 6rem;
+  color: #ffffff;
+  text-align: center;
+  width: 70rem;
+  margin: auto;
+}
+
+.hero .hero-description {
+  /* padding-top: 10rem; */
+  font-size: 1.5rem;
+  color: #ffffff;
+  text-align: center;
+  width: 70rem;
+  margin: auto;
+}
+.hero .button-large {
+  font-size: 24px;
+  padding: 15px 30px;
+  background-color: #ba0cc5;
+  border: none;
+  color: #ffffff;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-top: 4rem;
+  margin-left: 40%;
+}
